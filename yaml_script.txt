@@ -353,7 +353,7 @@ Resources:
             - '         --stack '
             - !Ref 'AWS::StackName'
             - '         --resource LaunchConfig '
-            - '         --configsets wordpress_install '
+            - '         --configsets hummingbird_install '
             - '         --region '
             - !Ref 'AWS::Region'
             - |+
